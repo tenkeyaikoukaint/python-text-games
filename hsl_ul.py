@@ -349,7 +349,7 @@ class town(gamestate):
         """like haskell's io monad(chain)"""
         if shop=="weapon":
             print("[weapon shop]")
-            print("hi, adventurer! what do you want?")
+            print("hi, adventurer! what do you need?")
             stg=""
             if gv.bonusgame==False:
                 wnum=8
@@ -380,7 +380,7 @@ class town(gamestate):
             inp=input(">")
             if inp=="h":
                 hgold=(gv.mylvl+1)*20
-                print(str(hgold)+" gold. do you accept it?(y or other)")
+                print(str(hgold)+" gold. OK?(y or other)")
                 inp=input(">")
                 if inp=="y":
                     if gv.mygold>=hgold:
@@ -419,7 +419,7 @@ class town(gamestate):
                     print("do you find dragon's nest? it is a goal.") 
             elif inp=="m":
                 print("1000 gold payment for 1 luck point.")
-                print("do you accept it?(y or other)")
+                print("OK?(y or other)")
                 inp=input(">")
                 if inp=="y":
                     if gv.mygold>=1000:
