@@ -5,4 +5,4 @@ various text games for python3
 text role playing game.
 
 ## One Room Adventure
-text adventure game (for Japanese)
+text adventure game (Japanese)
