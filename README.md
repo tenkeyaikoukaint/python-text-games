@@ -11,5 +11,8 @@ beginner level:<br />
 modify monster names and weapon names to building a fantasy world<br />
 as you like.<br />
 
+intermediate level:<br />
+modify map, events and shops
+
 ## One Room Adventure
 text adventure game (Japanese)
