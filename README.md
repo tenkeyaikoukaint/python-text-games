@@ -2,7 +2,11 @@
 various text games for python3
 
 ## The Holy Stone Lite
-a text based role playing game
+a text based role playing game 
+
+[features]<br />
+*7 weapons(+extra), 4 armors<br />
+*level up system, 5 monsters, dragon(that has the holy stone) and extra
 
 **you can modify it and make your own RPG**<br />
 because it is written in Python.
