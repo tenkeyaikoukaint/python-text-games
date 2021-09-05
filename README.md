@@ -21,5 +21,8 @@ modify map, events and shops
 advanced level:<br />
 add party battle, multi layered dungeon, magic, magic items
 
+## Anekgard
+text based adventure game like RPG
+
 ## One Room Adventure
 text adventure game (Japanese)
