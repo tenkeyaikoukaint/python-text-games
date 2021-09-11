@@ -30,24 +30,24 @@ def move(gs,func,dir):
 def search(gs):
 
     if gs.pl==28 and gs.pos[10]==50 and gs.pos[11]==99:
-        print("Robin find a (Gem of forest).")
+        print("Robin found a (Gem of forest).")
         gs.pos[11]=50
     elif gs.pl==27 and gs.pos[7]==50 and gs.pos[8]==99:
-        print("Maria find a (Herb).")
+        print("Maria found a (Herb).")
         gs.pos[8]=50
     elif gs.pl==22 & gs.pos[9]==99:
-        print("You find a piece of (Mineral).")
+        print("You found a piece of (Mineral).")
         gs.pos[9]=50
     elif gs.pl==12 and gs.pos[10]==50 and gs.pos[4]==99:
-        print("Robin find a (Old gem).")
+        print("Robin found a (Old gem).")
         gs.pos[4]=50
     elif gs.pl==12 and gs.pos[10]==50 and gs.pos[2]==99:
-        print("Robin find a piece of (Precious matal).")
+        print("Robin found a piece of (Precious matal).")
         gs.pos[2]=50
     else:
-        print("You can find nothing special.")
+        print("You can found nothing special.")
     if gs.pos[4]==50 and gs.pos[6]==50 and gs.pos[11]==50 and gs.pos[14]==50 and gs.pos[15]==50 and gs.pos[16]==50 and gs.pos[17]==50:
-        print("You solve a game Anekgard!")
+        print("You solve the game Anekgard!")
         gs.gameflag=0
 
     return gs
@@ -81,8 +81,8 @@ def map(gs):
 def fight(gs):
 
     if gs.pl==14 and gs.pos[3]==50 and gs.pos[12]==14:
-        print("Dragon flee from your attack,")
-        print("You get a Nail of dragon and Gem of dragon.")
+        print("Dragon flew away to avoid your attack.")
+        print("It leaves a Nail of dragon and Gem of dragon.")
         gs.pos[12]=99
         gs.pos[13]=50
         gs.pos[14]=50
@@ -91,9 +91,9 @@ def fight(gs):
     if gs.pl==21:
         print("Enemy defences!")
     if gs.pl==3 or gs.pl==9 or gs.pl==10 or gs.pl==4 and gs.pos[3]==4 or gs.pl==15 and gs.pos[1]==15 or gs.pl==29 and gs.pos[10]==29 or gs.pl==18 and gs.pos[7]==18:
-        print("You don't permitted to attack a innocent people.")
+        print("You don't permitted to attack an innocent people.")
     if gs.pos[4]==50 and gs.pos[6]==50 and gs.pos[11]==50 and gs.pos[14]==50 and gs.pos[15]==50 and gs.pos[16]==50 and gs.pos[17]==50:
-        print("You solve a game Anekgard!")
+        print("You solve game Anekgard!")
         gs.gameflag=0
 
     return gs
@@ -207,5 +207,6 @@ while gv.gameflag==1:
     if gv.mapdisp==True:
         map(gv)
     conds(gv)
-    inp=input("command[nsew r:research a:attack t:talk c:condition m:map q:quit game]:")
+    print("command[nsew r:research a:attack t:talk c:condition m:map q:quit game]")
+    inp=input(":")
     gv=cmdexe(gv,inp)

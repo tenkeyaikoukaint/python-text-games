@@ -98,7 +98,7 @@ class battle:
             gv.ehp=gv.ehp-dmg
             print(str(dmg)+" damages Enemy HP:"+str(gv.ehp))
             if gv.ehp<=0:
-                print("you win!")
+                print("you won!")
                 print("you got "+str(eexp[gv.enum])+"exp and "+str(egold[gv.enum])+"gold")
                 gv.myexp=gv.myexp+eexp[gv.enum]
                 gv.mygold=gv.mygold+egold[gv.enum]
@@ -122,7 +122,7 @@ class battle:
                 gv.myhp=gv.myhp-dmg
             print(str(dmg)+ " damages Your HP:"+str(gv.myhp))
             if gv.myhp<=0:
-                print("you lose...")
+                print("you lost...")
                 gv.cmdmode="maze"
                 gv.gameflag=False
         return gv
