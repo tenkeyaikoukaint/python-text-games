@@ -26,3 +26,6 @@ text based adventure game like RPG
 
 ## One Room Adventure
 text adventure game (Japanese)
+
+## ポンポン船アドベンチャー(Adventure of The Pop pop boat)
+text based adventure game with number choice (Japanese)
