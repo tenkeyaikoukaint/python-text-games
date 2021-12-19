@@ -11,7 +11,7 @@ a text based role playing game
 **you can modify it and make your own RPG**<br />
 because it is written in Python.
 
-beginner level:<br />
+beginner's level:<br />
 modify monster names and weapon names to build a fantasy world<br />
 as you like.<br />
 
