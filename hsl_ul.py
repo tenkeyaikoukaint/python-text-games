@@ -386,6 +386,7 @@ class town(gamestate):
                     if gv.mygold>=hgold:
                         print("your hp reaches max point.")
                         gv.myhp=gv.myhpmax
+                        gv.mygold=gv.mygold-hgold
                     else:
                         print("your gold is not enough.")
                 else:
@@ -425,6 +426,7 @@ class town(gamestate):
                     if gv.mygold>=1000:
                         print("your luck goes up.")
                         gv.myluck=gv.myluck+1
+                        gv.mygold=gv.mygold-1000
                         print("now your luck point is:"+str(gv.myluck))
                     else:
                         print("you have not enough gold.")
@@ -445,6 +447,7 @@ class town(gamestate):
                     if gv.mygold>amrg[ninp]:
                         print("you got "+str(armor[ninp]))
                         gv.myamr=ninp
+                        gv.mygold=gv.mygold-armg[ninp]
                     else:
                         print("too expensive to buy")
                 else:
