@@ -1,4 +1,4 @@
-"""Sorry, uncurable code"""
+"""Sorry, incurable code"""
 
 class gamevals:
 
@@ -211,4 +211,5 @@ while gv.gameflag==1:
     print("command[nsew r:research a:attack t:talk c:condition m:map q:quit game]")
     inp=input(":")
     gv=cmdexe(gv,inp)
+
 
