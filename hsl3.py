@@ -1,4 +1,4 @@
-"""the holy stone light unlimited version"""
+"""the holy stone light (incompleted)"""
 """a role-playing game"""
 """play : about 1 hour"""
 
